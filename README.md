@@ -1,9 +1,9 @@
-Daily Motivation Bot
+*** Daily Motivation Bot
 
 A simple Python script that sends you a fresh motivational quote every day using the ZenQuotes API.
 This project is perfect for learning basic Python scripting, APIs, and automation.
 
-🚀 Features
+***🚀 Features
 
 Fetches a new motivational quote every time it runs
 
