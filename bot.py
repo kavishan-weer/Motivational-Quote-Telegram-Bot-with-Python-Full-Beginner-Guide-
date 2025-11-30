@@ -44,7 +44,7 @@ def send_quote():
 # ----------------------------------------------------
 # 4. Schedule the bot to run daily at 8:00 AM
 # ----------------------------------------------------
-schedule.every().day.at("09:20").do(send_quote)
+schedule.every().day.at("08:00").do(send_quote)
 
 print("Daily Motivation Bot is running...")
 
