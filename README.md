@@ -10,6 +10,7 @@ Because of that, this version now uses the more stable and reliable ZenQuotes AP
 
 This repo contains the updated and fixed version.
 
+
 ✨ Features
 
 Fetches a new motivational quote every day
@@ -28,16 +29,22 @@ Email notifications
 
 Cron/scheduled jobs
 
+
 📂 Project Structure
 daily_motivation_bot/
+
 │── bot.py
+
 │── requirements.txt
+
 │── README.md
+
 
 🔧 Installation
 1. Clone the repository
 git clone https://github.com/yourusername/daily_motivation_bot.git
 cd daily_motivation_bot
+
 
 2. Install dependencies
 pip install -r requirements.txt
@@ -48,6 +55,7 @@ python3 bot.py
 
 You will see a new motivational quote printed in the terminal.
 
+
 🧠 How It Works
 
 Makes a request to the ZenQuotes API
@@ -57,6 +65,7 @@ Receives a JSON response
 Extracts the quote and author
 
 Prints it cleanly
+
 
 📝 Example Output
 "Your only limit is your mind."
