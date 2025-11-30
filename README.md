@@ -1,61 +1,63 @@
-*** Daily Motivation Bot
+Daily Motivation Bot
 
-A simple Python script that sends you a fresh motivational quote every day using the ZenQuotes API.
-This project is perfect for learning basic Python scripting, APIs, and automation.
+A simple Python project that sends a motivational quote every day using a reliable quotes API.
+This bot is lightweight, easy to modify, and perfect for beginners learning Python, APIs, and automation.
 
-***🚀 Features
+📌 About This Project
 
-Fetches a new motivational quote every time it runs
+Originally this bot used another quotes API that became unstable and caused SSL errors.
+Because of that, this version now uses the more stable and reliable ZenQuotes API, which works consistently.
 
-Uses a stable API (alternative to unreliable ones)
+This repo contains the updated and fixed version.
 
-Lightweight and beginner-friendly
+✨ Features
 
-Customizable for:
+Fetches a new motivational quote every day
+
+Uses a stable API (ZenQuotes)
+
+Clean & simple Python code
+
+Can be extended for:
 
 Telegram bots
 
 Discord bots
 
-Email senders
+Email notifications
 
-Mobile notifications
+Cron/scheduled jobs
 
-Cron jobs / scheduled tasks
-
-📁 Project Structure
+📂 Project Structure
 daily_motivation_bot/
 │── bot.py
-│── README.md
 │── requirements.txt
+│── README.md
 
-🛠️ Installation
+🔧 Installation
 1. Clone the repository
-git clone https://github.com/kavishan-weer/Motivational-Quote-Telegram-Bot-with-Python-Full-Beginner-Guide-
+git clone https://github.com/yourusername/daily_motivation_bot.git
 cd daily_motivation_bot
 
 2. Install dependencies
 pip install -r requirements.txt
 
-📜 Usage
-
-Simply run:
-
+▶️ How to Run
 python3 bot.py
 
 
-You will see a motivational quote printed in your terminal.
+You will see a new motivational quote printed in the terminal.
 
-🧩 How It Works
+🧠 How It Works
 
-The script sends a request to the ZenQuotes API
+Makes a request to the ZenQuotes API
 
 Receives a JSON response
 
-Extracts the quote + author
+Extracts the quote and author
 
-Prints it nicely formatted
+Prints it cleanly
 
-🧪 Sample Output
+📝 Example Output
 "Your only limit is your mind."
 — Anonymous
