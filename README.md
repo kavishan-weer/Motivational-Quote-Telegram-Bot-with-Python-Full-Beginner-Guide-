@@ -43,6 +43,7 @@ daily_motivation_bot/
 🔧 Installation
 1. Clone the repository
 git clone https://github.com/yourusername/daily_motivation_bot.git
+
 cd daily_motivation_bot
 
 
